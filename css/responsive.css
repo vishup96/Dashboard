@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1215px) {
+  .custom-container{
+  	padding:0px 15px;
+
+
+  }
+
+
+}
+
+@media only screen and (max-width: 1006px) {
+	.event-list {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.jobs-info .content h2 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.recent-videos  {
+    margin-top: 32px;
+}
+
+.event .row {
+    gap: 32px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 619px) {
+.topheader nav, .nav-righ {
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.info-card .content-card .count {
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.info-card .content-card h2 {
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.info-card .content-card {
+    gap: 20px;
+    border-radius: 8px;
+    padding: 10px 31px;
+     height: auto; 
+
+}
+
+.cart-block .grsph-info-card {
+    padding: 15px;
+}
+
+.info-card {
+    gap: 10px;
+}
+
+.recent-jobs, .recent-videos, .upcoming-events {
+    padding-bottom: 107px;
+}
+.vido-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.recent-posted .title, .recent_job .title {
+ 
+    text-align: center;
+}
+
+.vido-card .vido {
+    width: 242px;
+    height: 233px;
+   
+}
+
+.recent-jobs-c .owl-nav {
+    top: 5px;
+}
+
+.jobs-c .owl-nav {
+    top: unset;
+    right: 0;
+    left: 0;
+    bottom: -32px;
+    justify-content: center;
+}
+
+.hr-menu {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hr-menu .action-btn {
+    padding-bottom: 24px;
+}
+
+#search-menu .wrapper input {
+    width: 90%;
+    padding: 0 0 0.125em 0;
+    border-bottom: 1px solid #bfbfbf;
+    font-size: 1em;
+    
+}
+
+#search-menu .wrapper button {
+    right: 16px;
+    font-size: 1em;
+  
+}
+#search-menu {
+    height: 9em;
+}
+}
